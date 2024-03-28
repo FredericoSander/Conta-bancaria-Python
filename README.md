@@ -3,12 +3,12 @@ Neste desafio foi criado um programa em Python que simula um sistema básico de 
 
 ## Descrição de funcionalidade
 1. O código define uma variável chamada **menu**, que é uma string multilinha e que apresenta as opções disponíveis para o usuário, incluindo depósito, saque, consulta de extrato e sair do sistema.
-2. Em seguida, são definidas algumas variáveis importantes
-   - **Saldo**: Iniciado com o valor 0;
+2. Em seguida, são definidas algumas variáveis importantes:
+   - **Saldo**: Inicia com o valor 0;
    - **Limite**: Definido com o valor 1000;
-   - **Extrato**: String vazia inicialmente para armazenar as transações do usuário;
-   - **Numero_saques**: Inicilizado como valor 0;
-   - **Limite_saques**: Valor constante definida como 3.
+   - **Extrato**: String iniciada sem valor e utilizada para armazenar as transações do usuário a medida que são executadas;
+   - **Numero_saques**: Inicializado como valor 0;
+   - **Limite_saques**: Valor constante definido como 3.
 3. O programa entra em um loop **while true** que continuará em execução idenfinidamente até que o usuário decida sair do sistema.
 4. Dentro do loop, o programa solicita ao usuário que selecione uma das opções do menu e aguarda a entrada do usuário. Para a opção deposito é utilizada a opção **d**, para a opção saque deve selecionar **s**, já para emitir um extrato deve-se selecionar a opção **e** e para finaizar o programa e sair do loop, deve-se selecionar a opçãpo **q**. Após a seleção de uma 
  opção o programa irá executar o bloco de código associado.
