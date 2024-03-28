@@ -1,7 +1,7 @@
 # Conta bancária Python
 Neste desafio foi criado um programa em Python que simula um sistema básico de caixa eletrônico que emite extratos, realiza saque e depósitos e emite comprovante dos saques e dos depósitos realizados. Os saques são condicionados as regras de negócio. Os extratos trazem as informações das operações realizadas e o saldo disponível para o cliente.
 
-## descrição da funcinalidade
+## Descrição de funcinalidade
 1. O código define uma variável cahamada **menu**, que é uma string multilinha que apresenta as opções disponíveis para o usuário, incluindo deposito saque, consulta de extrato e sair do sistema.
 2. Em seguida, são sefinidas algumas variáveis importantes. como **saldo** sendo iniciado com o valor 0, **limite** definodo com o valor 1000, **extrato** uma string vazia inicialmente para armazenar as transações do usuário, **numero_saques** inicilizado como 0 e **limite_saques** uma constante definida como 3.
 3. O programa entra em um loop **while true** que continuará em execução idenfinidamente até que o usuário decida sair do sistema.
